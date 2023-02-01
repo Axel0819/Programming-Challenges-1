@@ -13,7 +13,7 @@ public class PasswordGenerator {
 
         for(int i = 1; i <= tam; i++){
             var randomIndex = randomIndex(0, alphabet.length -1);
-            passw +=alphabet[randomIndex];
+            passw+= alphabet[randomIndex];
         }
         if(mayusculas) passw = passw.replace(passw.charAt(0), Character.toUpperCase(passw.charAt(0)));
         if (numeros) passw = passw.replace(passw.charAt(passw.length() - 1), Character.forDigit(randomIndex(0,numbers.length -1),10));
