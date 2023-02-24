@@ -1,3 +1,7 @@
+import harryPotter.SombreroSeleccionador;
+
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         /*FizzBuzz fizzBuzz = new FizzBuzz();
@@ -17,7 +21,11 @@ public class Main {
 
         /*PrimoFibonacciPar primoFibonacciPar = new PrimoFibonacciPar();
         primoFibonacciPar.solution(2);*/
-        RockPaperScissorsVariant rockPaperScissorsVariant = new RockPaperScissorsVariant();
-        rockPaperScissorsVariant.solution(new String[][]{{"🗿","✂️"},{"✂️","🗿"}});
+
+        /*RockPaperScissorsVariant rockPaperScissorsVariant = new RockPaperScissorsVariant();
+        rockPaperScissorsVariant.solution(new String[][]{{"🗿","✂️"},{"✂️","🗿"}});*/
+
+        SombreroSeleccionador sombreroSeleccionador = new SombreroSeleccionador();
+        sombreroSeleccionador.solution();
     }
 }
