@@ -25,7 +25,10 @@ public class Main {
         /*RockPaperScissorsVariant rockPaperScissorsVariant = new RockPaperScissorsVariant();
         rockPaperScissorsVariant.solution(new String[][]{{"🗿","✂️"},{"✂️","🗿"}});*/
 
-        SombreroSeleccionador sombreroSeleccionador = new SombreroSeleccionador();
-        sombreroSeleccionador.solution();
+        /*SombreroSeleccionador sombreroSeleccionador = new SombreroSeleccionador();
+        sombreroSeleccionador.solution();*/
+
+        GeneradorPseudoAleatorio generadorPseudoAleatorio = new GeneradorPseudoAleatorio();
+        generadorPseudoAleatorio.solution();
     }
 }
