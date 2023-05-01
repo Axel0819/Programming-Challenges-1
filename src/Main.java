@@ -28,7 +28,13 @@ public class Main {
         /*SombreroSeleccionador sombreroSeleccionador = new SombreroSeleccionador();
         sombreroSeleccionador.solution();*/
 
-        GeneradorPseudoAleatorio generadorPseudoAleatorio = new GeneradorPseudoAleatorio();
-        generadorPseudoAleatorio.solution();
+        /*GeneradorPseudoAleatorio generadorPseudoAleatorio = new GeneradorPseudoAleatorio();
+        generadorPseudoAleatorio.solution();*/
+
+        HetoIsoPangrama hetoIsoPangrama = new HetoIsoPangrama();
+        /*System.out.println("Heterograma : "+hetoIsoPangrama.isHeterogram("luteranismo"));
+        System.out.println("Isograma : "+hetoIsoPangrama.isIsogram("bilabial"));*/
+        System.out.println(hetoIsoPangrama.isPangram("Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más exquisita champaña del menú."));
+        
     }
 }
