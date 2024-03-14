@@ -1,3 +1,4 @@
+import Tetris.Tetris;
 import harryPotter.SombreroSeleccionador;
 
 import java.util.Scanner;
@@ -31,10 +32,30 @@ public class Main {
         /*GeneradorPseudoAleatorio generadorPseudoAleatorio = new GeneradorPseudoAleatorio();
         generadorPseudoAleatorio.solution();*/
 
-        HetoIsoPangrama hetoIsoPangrama = new HetoIsoPangrama();
-        /*System.out.println("Heterograma : "+hetoIsoPangrama.isHeterogram("luteranismo"));
-        System.out.println("Isograma : "+hetoIsoPangrama.isIsogram("bilabial"));*/
-        System.out.println(hetoIsoPangrama.isPangram("Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más exquisita champaña del menú."));
+        /*HetoIsoPangrama hetoIsoPangrama = new HetoIsoPangrama();
+        System.out.println("Heterograma : "+hetoIsoPangrama.isHeterogram("luteranismo"));
+        System.out.println("Isograma : "+hetoIsoPangrama.isIsogram("bilabial"));
+        System.out.println(hetoIsoPangrama.isPangram("Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más exquisita champaña del menú."));*/
+        Tetris game = new Tetris();
+
+        game.game('d');
+        System.out.println("------");
+        game.game('d');
+        System.out.println("------");
+        game.game('d');
+        System.out.println("------");
+        game.game('d');
+        System.out.println("------");
+        game.game('d');
+        System.out.println("------");
+        game.game('d');
+        System.out.println("------");
+        game.game('d');
+        System.out.println("------");
+        game.game('d');
+        System.out.println("------");
+        game.game('d');
+        System.out.println("------");
         
     }
 }
