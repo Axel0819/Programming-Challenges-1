@@ -31,10 +31,12 @@ public class Main {
         /*GeneradorPseudoAleatorio generadorPseudoAleatorio = new GeneradorPseudoAleatorio();
         generadorPseudoAleatorio.solution();*/
 
-        HetoIsoPangrama hetoIsoPangrama = new HetoIsoPangrama();
+        //HetoIsoPangrama hetoIsoPangrama = new HetoIsoPangrama();
         /*System.out.println("Heterograma : "+hetoIsoPangrama.isHeterogram("luteranismo"));
         System.out.println("Isograma : "+hetoIsoPangrama.isIsogram("bilabial"));*/
-        System.out.println(hetoIsoPangrama.isPangram("Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más exquisita champaña del menú."));
-        
+        //System.out.println(hetoIsoPangrama.isPangram("Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más exquisita champaña del menú."));
+        //System.out.println(ClimbingStairs.recursiveClimb(44));
+        //System.out.println(ClimbingStairs.iterativeClimb(44));
+        System.out.println(RomanToInteger.solution("MMMDCCXXIV"));
     }
 }
